@@ -1,5 +1,5 @@
 // DON'T TOUCH THIS CODE
-if (typeof window === 'undefined'){
+if (typeof window === 'undefined') {
   var readline = require("readline");
   var Piece = require("./piece.js");
   var Board = require("./board.js");
@@ -9,7 +9,7 @@ if (typeof window === 'undefined'){
 /**
  * Sets up the game with a board and the first player to play a turn.
  */
-function Game () {
+function Game() {
   this.board = new Board();
   this.turn = "black";
 };
