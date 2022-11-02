@@ -1,1 +1,40 @@
 /* PHASE 0: Sidebar */
+.profile-picture {
+  display: block;
+  margin-top: -60%;
+  position: relative;
+}
+
+.profile-picture > img {
+  border-radius: 8px;
+  border: 2px solid black;
+}
+
+.profile-info > h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 18px;
+}
+
+.profile-info > p {
+  margin-top: 18px;
+  margin-bottom: 18px;
+}
+
+.profile-nav {
+  padding-bottom: 20px;
+}
+
+.profile-nav > ul li {
+  padding: 8px 4px;
+  border-bottom: 1px solid #ccc;
+  font-weight: bold;
+}
+
+.profile-nav > ul li:first-child {
+  border-top: 1px solid #ccc;
+}
+
+.profile-nav > ul li:hover {
+  background-color: #eee;
+}
